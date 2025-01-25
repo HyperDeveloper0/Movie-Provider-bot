@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27358729')
 API_HASH = environ.get('API_HASH', '6910fe5c69fb5fb2214162099ffe526c')
-BOT_TOKEN = environ.get('BOT_TOKEN', "8028152501:AAFtsmpzHdauKa8h15v7eNlGvIuEsZJVYvk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7388321243:AAFtwIM47Q9FYawKPVtmZOtOoVAiokgQB_o")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -52,8 +52,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 # MongoDB information 
 # https://youtu.be/qFB0cFqiyOM?si=QGuFSZ7qhxl4VTrA
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://techybishal27:npo4TT35veP1jH0E@reconic-movies.9fla3.mongodb.net/?retryWrites=true&w=majority&appName=reconic-movies")
-DATABASE_NAME = environ.get('DATABASE_NAME', "reconic-movies")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bishalsarkar7959:zx2yOYw5Uh9rtg6G@castle-screen.6s93s.mongodb.net/?retryWrites=true&w=majority&appName=castle-screen")
+DATABASE_NAME = environ.get('DATABASE_NAME', "castle-screen")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify/token system
@@ -74,7 +74,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/MovizTube')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Ultroid_Official/18') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : ultroidxTeam')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002498509304') #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002427808800') #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/UltroidOfficial_chat') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -99,7 +99,7 @@ SEASONS = ["season 1" , "season 2" , "season 3" , "season 4", "season 5" , "seas
 
 QUALITIES = ["360P", "", "480P", "", "720P", "", "1080P", "", "1440P", "", "2160P", ""]
 
-# FQDN = ex. => ttoken-78-cdadf96c95a8.herokuapp.com  (remove 'https://' ttoken-78-cdadf96c95a8.herokuapp.com '/' )
+# FQDN = ex. => ttoken-78-cdadf96c95a8.herokuapp.com  (remove 'https://' castle-stream.herokuapp.com '/' )
 
 # Online Stream and Download
 PORT = int(environ.get('PORT', 8080))
@@ -136,7 +136,7 @@ OWNER_USERNAME = "LazyDeveloper"
 
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002062925443'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002427808800'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
